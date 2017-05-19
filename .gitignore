@@ -1,0 +1,11 @@
+# node modules folder
+/node_modules
+
+# build folder
+/dist
+
+# css file 
+/src/styles/main.css
+
+# bower modules folder
+/src/bower_components/

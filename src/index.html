@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demo</title>
+  <!-- bower:css -->
+  <!-- endbower -->
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/styles/main.css">
+  <!-- endinject -->
+</head>
+<body ng-app="app">
+  <ui-view></ui-view>
+  <!-- bower:js -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <!-- endbower -->
+  <!-- inject:js -->
+  <script src="/app/app.module.js"></script>
+  <script src="/app/core/core.module.js"></script>
+  <script src="/app/home/home.module.js"></script>
+  <script src="/app/shell/shell.module.js"></script>
+  <script src="/app/home/home.controller.js"></script>
+  <script src="/app/shell/bottom.controller.js"></script>
+  <script src="/app/shell/shell.controller.js"></script>
+  <script src="/app/shell/top.controller.js"></script>
+  <!-- endinject -->
+</body>
+</html>
