@@ -10,12 +10,17 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.18.12",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
     "gulp-eslint": "^3.0.1",
     "gulp-inject": "^4.2.0",
+    "gulp-minify-html": "^1.0.6",
     "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
     "gulp-wiredep": "^1.2.0"
   }
 }

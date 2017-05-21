@@ -7,7 +7,7 @@ angular
 .controller('Shell', Shell);
 
 function Shell() {
-  let vm = this;
+  var vm = this;
   vm.message = 'Hello World Test';
 }
 

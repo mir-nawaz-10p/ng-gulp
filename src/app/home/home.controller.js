@@ -7,7 +7,7 @@ angular
 .controller('Home', Home);
 
 function Home() {
-  let vm = this;
+  var vm = this;
   vm.message = 'Hello World Home';
 }
 

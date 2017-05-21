@@ -7,7 +7,7 @@ angular
 .controller('Bottom', Bottom);
 
 function Bottom() {
-  let vm = this;
+  var vm = this;
   vm.message = 'Bottom';
 }
 
