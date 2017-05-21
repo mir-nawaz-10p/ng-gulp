@@ -13,6 +13,10 @@
   ])
   .config(configuration);
   
-  function configuration(){}
+  function configuration($compileProvider){
+    $compileProvider.debugInfoEnabled(false);
+    $compileProvider.commentDirectivesEnabled(false);
+    $compileProvider.cssClassDirectivesEnabled(false);
+  }
 
 }());

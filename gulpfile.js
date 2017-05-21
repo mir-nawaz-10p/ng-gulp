@@ -60,7 +60,7 @@ gulp.task('browser-sync', () => {
 });
 
 gulp.task('app-js', function(){
-  return gulp.src(['./src/app/**/*.js'])
+  return gulp.src(['src/app/**/*.module.js', 'src/app/**/*.js'])
       .pipe(uglify().on('error', function(e){console.log(e);}))
       .pipe(concat('app.js'))
       .pipe(gulp.dest('./dist/js/'));
